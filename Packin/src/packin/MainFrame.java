@@ -1,8 +1,20 @@
 /*
- * MainFrame.java
- *
- * Created on November 9, 2007, 8:12 PM
- */
+* 	Packin Linux Debian Package Creator- Project Website hosted at <http://packin.sf.net/>.
+*   Copyright (C) 2007-2008  Packin Team
+*
+*   This program is free software: you can redistribute it and/or modify
+*   it under the terms of the GNU General Public License as published by
+*   the Free Software Foundation, either version 3 of the License, or
+*   (at your option) any later version.
+*   
+*   This program is distributed in the hope that it will be useful,
+*   but WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*   GNU General Public License for more details.
+*   
+*   You should have received a copy of the GNU General Public License
+*   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
 package src.packin;
 
@@ -14,10 +26,10 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
-/**
- *
- * @author  kurtis
- */
+
+
+
+
 public class MainFrame extends javax.swing.JFrame {
     
     /** Creates new form MainFrame */
@@ -575,7 +587,7 @@ public class MainFrame extends javax.swing.JFrame {
         HelpMenu.add(VisitPackinMenuItem);
 
         MenuBar.add(HelpMenu);
-
+ 
         setJMenuBar(MenuBar);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
