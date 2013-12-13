@@ -1,0 +1,12 @@
+Package: testdbas
+Version: 2
+Architecture: i386
+Depends: 
+Pre-Depends: 
+Recommends: 
+Maintainer: test [test]
+Conflicts: 
+Replaces: 
+Provides: testdbas
+Description: sdfdddd
+
